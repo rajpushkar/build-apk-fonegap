@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.AnAnt.Water-Check"
+        versionCode="10" 
+        version   = "1.3.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Water-Check</name>
+
+    <description>
+        An android application which maps the health-diseases and the water quality around you. 
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Team AnAnt: Kunjan Dhingra, Priyanka Ghosh, Pushkar Raj Mehandiratta
+    </author>
+    <gap:splash src="splash.png" />
+    <icon src="icon.png" />
+			<preference name="Load-url-timeout" value="15000" />
+</widget>
+
